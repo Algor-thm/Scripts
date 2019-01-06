@@ -1,0 +1,14 @@
+[Unit]
+Description=Battery Notification
+
+[Service]
+Type=simple
+ExecStart=/bin/bash <script location>
+Environment=DISPLAY=:0
+Environment=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+Restart=always
+RestartSec=3
+User=<user>
+
+[Install]
+WantedBy=multi-user.target
