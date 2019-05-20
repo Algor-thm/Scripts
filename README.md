@@ -6,3 +6,5 @@
 * colors.sh - A colors script I got from someone on Discord, not made by me.
 * currentbattery.sh - Notification script used to show the current battery.
 * time.sh - Notification script to show the current time.
+
+![screenshot.png](https://github.com/Algor-thm/Scripts/blob/master/screenshot.png)
