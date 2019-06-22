@@ -3,7 +3,7 @@
 NOTIFICATIONFILE=/tmp/.notificationSent
 
 if [ ! -f $NOTIFICATIONFILE ]; then
-    echo "0" > $NOTIFICATIONFILE
+    printf "0" > $NOTIFICATIONFILE
 fi
 read -r NOTIFICATIONSENT < /tmp/.notificationSent
 
